@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Microblog</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="navbar__brand">
+        <img src="Logo.svg" alt="The Microblog logo">Microblog
+      </div>
+      <ul class="navbar__navigation">
+        <li class="navbar__navigation-item"><a href="#" class="navbar__link">Recent</a></li>
+        <li class="navbar__navigation-item"><a href="#" class="navbar__link">Calender</a></li>
+      </ul>
+
+    </header>
+    <main>
+      <section>
+        <h1>Add new entry</h1>
+        <form action="/entry" method="POST">
+          <label for="sample-field">Sample:</label>
+          <input type="text" name="sample" id="sample-field">
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section>
+        <h1>Recent posts</h1>
+        <article>
+          <div>
+            <h2>A bit of chill day today </h2>
+            <time datetime="16-12-2020">Dec 16</time>
+          </div>
+          <p>
+            Today i coulnt learn much because i can not see rest of the sentence
+          </p>
+        </article>
+      </section>
+
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
